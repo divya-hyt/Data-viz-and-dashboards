@@ -403,7 +403,7 @@ peak_data = df[df['peak_hour'] == 1]['load_factor']
 offpeak_data = df[df['peak_hour'] == 0]['load_factor']
 
 fig, ax = plt.subplots(figsize=(8, 6))
-bp = ax.boxplot([peak_data, offpeak_data], labels=['Peak Hours\n(7-10am, 5-8pm)', 'Off-Peak Hours'],
+bp = ax.boxplot([peak_data, offpeak_data], tick_labels=['Peak Hours\n(7-10am, 5-8pm)', 'Off-Peak Hours'],
                 patch_artist=True)
 
 bp['boxes'][0].set_facecolor('#e53935')
