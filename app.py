@@ -9,13 +9,13 @@
 # In[1]:
 
 
-pwd
+# pwd
 
 
 # In[2]:
 
 
-cd C:\Di\Personal\Public policy\Kautilya\Terms\Term 3\Core courses\DVD\Presentation
+# cd C:\Di\Personal\Public policy\Kautilya\Terms\Term 3\Core courses\DVD\Presentation
 
 
 # In[3]:
